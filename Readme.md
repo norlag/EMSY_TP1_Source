@@ -118,7 +118,7 @@ Q11. Que signifie **sda** ?
 
 sda est un fichier spécial qui représente un disque de stockage sur linux. a pour dire que c'est le premier disque. pour un deuxième disque il aurait le nom sdb et après sdc pour un troisième, etc...
 
-Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> voir résultat point 13.
+Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda`
 
 <img width="403" height="35" alt="ls-sda" src="https://github.com/user-attachments/assets/9a504095-9b68-458c-b4c2-d425c93af820" />
 
@@ -126,9 +126,9 @@ brw-rw---- c'est la partie qui décrit les permissions sur le fichier. La premi�
 
 ensuite, on voit l'utilisateur propriétaire. ici root, et le groupe est disk
 
-Le numéro 8 identifie le type de périphérique (ici, disque SCSI/SATA). voir https://www.kernel.org/doc/Documentation/admin-guide/devices.txt
+Le numéro 8 identifie le type de périphérique (ici, disque SCSI). et le 0 indique que c'est le premier disque voir https://www.kernel.org/doc/Documentation/admin-guide/devices.txt
 
-Ensuite on voit la dernière date de modification du fichier
+Ensuite on voit la dernière date de modification du fichier, ici le 18 septembre à 13:41
 
 ## Tips 
 
