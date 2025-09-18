@@ -1,4 +1,4 @@
-# TP1 - Installation Linux sur une VM - V0.1
+# TP1 - Installation Linux sur une VM - V0.2
 
 ## Groupe 
 
@@ -54,8 +54,6 @@ G. Lancement du live CD :
 Shell Linux : 
 
 <img width="1920" height="1080" alt="shell" src="https://github.com/user-attachments/assets/c98104c8-96ea-449e-9d40-62bc776376ce" />
-
-> **ATTENTION** : par défaut, le clavier est configuré est **Clavier Americain**
 
 Q1. disposition du clavier américain ?
 
@@ -129,16 +127,4 @@ ensuite, on voit l'utilisateur propriétaire. ici root, et le groupe est disk
 Le numéro 8 identifie le type de périphérique (ici, disque SCSI). et le 0 indique que c'est le premier disque voir https://www.kernel.org/doc/Documentation/admin-guide/devices.txt
 
 Ensuite on voit la dernière date de modification du fichier, ici le 18 septembre à 13:41
-
-## Tips 
-
-> $$Tips^1$$ : sortir de la VM -> appuyer simultanément sur `Ctrl` et `Alt` 
-
-> $$Tips^2$$ : arrêter la VM proprement -> commande : `shutdown`
-
-> $$Tips^3$$ : arrêter la VM pour cause de plantage -> commande : `halt` ou `poweroff`
-
-> $$Tips^4$$ : [commande vi avec ses options](https://www.linuxtricks.fr/wiki/guide-de-sur-vi-utilisation-de-vi)
-
-> $$Tips^5$$ : [éditer un fichier type markdown (.md)](https://ashki23.github.io/markdown-latex.html)
 
