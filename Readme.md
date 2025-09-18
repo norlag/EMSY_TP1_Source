@@ -120,6 +120,8 @@ sda est un fichier spécial qui représente un disque de stockage sur linux. a p
 
 Q12. Décrypter la réponse après avoir taper la commande `ls -l /dev/sda` -> voir résultat point 13.
 
+<img width="403" height="35" alt="ls-sda" src="https://github.com/user-attachments/assets/9a504095-9b68-458c-b4c2-d425c93af820" />
+
 brw-rw---- c'est la partie qui décrit les permissions sur le fichier. La première partie donne read (r) et write (w) pour l'utilisateur root et le groupe disk. Les autres utilisateurs ou groupes n'ont pas les droits d'écriture ou de lecture. Il existe également un droit d'execution mais il n'apparaît pas ici (x). le b indique qu'il s'agit d'un fichier spécial de type bloc -> voir https://www.gnu.org/software/coreutils/manual/html_node/What-information-is-listed.html#index-verbose-ls-format
 
 ensuite, on voit l'utilisateur propriétaire. ici root, et le groupe est disk
