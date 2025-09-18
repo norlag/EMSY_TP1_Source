@@ -87,11 +87,9 @@ Q6. Décrypter la ligne où se trouve le répertoire **home**
 
 on voit un dossier live qui s'agit du dossier utilisateur. Comme dans windows chaque utilisateur a son propre dossier utilisateur dans C:/Utilisateurs/seb par exemple
 
-> votre réponse ?!
-
 J. Créez un répertoire de travail nommé « EMSY_VosInitiales» dans quel dossier racine allez-vous le placer (justifiez votre réponse) et quelle commande allez-vous utiliser. 
 
-> votre commande ?! 
+mkdir /home/live/EMSY_SSR
 
 Q7. Si vous créez un répertoire de travail (pour éditer/sauvegarder des fichiers), dans quelle **répertoire racine** vous vous placez ? 
 
