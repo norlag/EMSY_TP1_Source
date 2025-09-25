@@ -152,6 +152,13 @@ Avec les commandes qu'ils m'ont indiqué "apt update" et "apt install sparky-bac
 <img width="852" height="573" alt="image" src="https://github.com/user-attachments/assets/0fc2f99e-635d-4e6e-89c7-8ba5831e1839" />
 On peut voir que le package sparky-backup-core a été mis à jour
 
+Lorsque je lance la partie d'installation pour les différentes partitions, je laisse GPT
+<img width="714" height="586" alt="image" src="https://github.com/user-attachments/assets/59e2ed02-c4f0-4249-8e6a-f5cc443e9586" />
+
+Je n'ai aucune partition de créée :
+<img width="938" height="695" alt="image" src="https://github.com/user-attachments/assets/d7405e4d-fb41-46f2-8d2c-8dbad3b79d53" />
+
+
 Question 13
 Selon le wiki : La taille de disque minimum recommandée par le wiki est de 10 à 20GB pour la partition root principale. La partition swap doit être entre 500MB et 1GB. La partition efi doit faire entre 100 et 300MB.
 
