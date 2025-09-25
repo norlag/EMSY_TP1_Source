@@ -138,14 +138,34 @@ Ensuite on voit la dernière date de modification du fichier, ici le 18 septembr
 Et finalement le nom du fichier
 
 Partie installation de sparky :
-En me basant sur le wiki de sparky accessible à l'adresse suivante :
+En me basant sur le wiki de sparky accessible à l'adresse suivante : https://wiki.sparkylinux.org/doku.php/advanced_installer
 
 Question M
-Je me met comme demandé en administrateur en supposant que l'utilisateur live n'est pas admin, j'exécute la commande "sudo su" pour me "login" en tant qu'utilisateur sudo pour pouvoir lancer mon installation
-Je lance l'installateur avancé avec la commande "sparky-installer gui"
 <img width="798" height="586" alt="image" src="https://github.com/user-attachments/assets/38fd1f37-f313-45a0-9151-dacb4e653880" />
+Je me met comme demandé en administrateur en supposant que l'utilisateur live n'est pas admin, j'exécute la commande "sudo su" pour me "login" en tant qu'utilisateur sudo pour pouvoir lancer mon installation
+Je lance l'installateur avancé avec la commande "sparky-installer"
 
-Il est écrit qu'il est fortement recommendé de quitter l'installateur et vérifier qu'il existe une nouvelle version de celui-ci, ce que je fais comme ils me l'indiquent avec les commandes "apt update" et "apt install sparky-backup-core"
 <img width="802" height="599" alt="image" src="https://github.com/user-attachments/assets/d149e771-7051-4a42-a037-e819a47892c5" />
+Il est écrit qu'il est fortement recommendé de quitter l'installateur et vérifier qu'il existe une nouvelle version de celui-ci. Je quitte donc l'installateur.
+Avec les commandes qu'ils m'ont indiqué "apt update" et "apt install sparky-backup-core" je met à jour l'installateur.
+
+<img width="852" height="573" alt="image" src="https://github.com/user-attachments/assets/0fc2f99e-635d-4e6e-89c7-8ba5831e1839" />
+On peut voir que le package sparky-backup-core a été mis à jour
+
+<img width="798" height="592" alt="image" src="https://github.com/user-attachments/assets/af2b3408-5485-44d5-b11d-30c1e643c3be" />
+Je relance l'installateur et j'appuye sur la touche enter sur le "< Yes >"
+On m'indique que par défaut l'installateur utilise l'anglais par défaut pour le clavier et la langue. Je souhaite configurer le clavier en suisse romand, je vais donc sur le "< Yes >" pour mettre le bon clavier.
+
+<img width="822" height="604" alt="image" src="https://github.com/user-attachments/assets/7801cf2c-d9db-41a7-addf-288ebfdc8005" />
+Ici je choisis mon clavier fr_CH pour le suisse romand. UTF-8 devrait être choisi par défaut comme il est expliqué dans l'installateur.
+
+
+
+
+
+
+
+
+
 
 
