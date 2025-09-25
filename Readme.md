@@ -1,4 +1,4 @@
-# TP1 - Installation Linux sur une VM - V0.2
+# TP1 - Installation Linux sur une VM - V2
 
 ## Groupe 
 
@@ -28,8 +28,6 @@ D. Indiquez le chemin d’accès de l’image iso comme indiqué sous l’image 
 ![install image disk](/Images/Install_ISO.jpg) 
 
 E. Choisir un nom d'OS : `Linux - Debian 11.x` 
-
-![OS name choice](/Images/OS_Choice.jpg) 
 
 F. Nommez la machine virtuelle : `SparkyLinux-SSR` 
 
