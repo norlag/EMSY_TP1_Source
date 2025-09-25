@@ -137,3 +137,15 @@ Ensuite on voit la dernière date de modification du fichier, ici le 18 septembr
 
 Et finalement le nom du fichier
 
+Partie installation de sparky :
+En me basant sur le wiki de sparky accessible à l'adresse suivante :
+
+Question M
+Je me met comme demandé en administrateur en supposant que l'utilisateur live n'est pas admin, j'exécute la commande "sudo su" pour me "login" en tant qu'utilisateur sudo pour pouvoir lancer mon installation
+Je lance l'installateur avancé avec la commande "sparky-installer gui"
+<img width="798" height="586" alt="image" src="https://github.com/user-attachments/assets/38fd1f37-f313-45a0-9151-dacb4e653880" />
+
+Il est écrit qu'il est fortement recommendé de quitter l'installateur et vérifier qu'il existe une nouvelle version de celui-ci, ce que je fais comme ils me l'indiquent avec les commandes "apt update" et "apt install sparky-backup-core"
+<img width="802" height="599" alt="image" src="https://github.com/user-attachments/assets/d149e771-7051-4a42-a037-e819a47892c5" />
+
+
