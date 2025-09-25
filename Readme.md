@@ -77,7 +77,14 @@ I. Affichez le contenu de la racine avec la commande : `ls –l`
 
 Q5. Que signifie l'option `-l` avec la commande `ls` 
 
-Affiche les dossiers du répertoire sous forme de liste
+Affiche les dossiers du répertoire sous forme de liste, avec les détails pour chaque dossier et fichier.
+Dans le sens de lecture :
+La première colonne s'agit du type de fichier : par exemple d pour dossier, l pour lien symbolique ou un - pour un fichier normal
+Ensuite à côté on retrouve les permissions de lecture (r), écriture (w) et exécution (x) pour l'utilisateur, le groupe ou les autres utilisateurs. Là ou se trouve un - c'est que l'on a pas un droit.
+root  root s'agissent des propriétaires du fichier. le premier root c'est l'utilisateur et le deuxième le groupe d'utilisateurs. il peut il y avoir plusieurs utilisateurs dans un groupe.
+Colonne suivante, on retrouve la taille en octet du fichier, la dernière date de modification et finalement le nom.
+Les noms ou l'on trouve un flèche -> s'agissent de liens symboliques
+Dans le screenshot on peut voir l'arborescence de base de linux essentielle à son bon fonctionnement.
 
 Q6. Décrypter la ligne où se trouve le répertoire **home**    
 
