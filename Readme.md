@@ -57,15 +57,15 @@ Shell Linux :
 
 Q1. disposition du clavier américain ?
 
-us
+us -> qwerty
 
 Q2. disposition du clavier suisse-romand ?
 
-fr_CH
+fr_CH -> qwertz
 
 Q3. disposition du le clavier français ? 
 
-fr
+fr -> azerty
 
 H. Déplacez-vous à la **racine du système** en utilisant la commande suivante : `cd` 
 
