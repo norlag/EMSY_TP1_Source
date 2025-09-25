@@ -33,11 +33,11 @@ F. Nommez la machine virtuelle : `SparkyLinux-SSR`
 
 G. Creez un disque virtuel -> capcité : **20GB** 
 
-> remarque$$^1$$ : cocher **store virtual disk a single file**
+> remarque : cocher **store virtual disk a single file**
 
 ![Virtual disk](/Images/VirtualDisk.jpg) 
 
-> remarque$$^2$$ : ci-dessous, la configuration de la VM 
+> remarque : ci-dessous, la configuration de la VM 
 
 ![Virtual disk](/Images/VM_Config.jpg) 
 
