@@ -53,6 +53,8 @@ Shell Linux :
 
 <img width="1920" height="1080" alt="shell" src="https://github.com/user-attachments/assets/c98104c8-96ea-449e-9d40-62bc776376ce" />
 
+A ce moment là, le clavier est en mode américain. J'utilise la commande loadkeys fr_CH pour le mettre en suisse romand
+
 Q1. disposition du clavier américain ?
 
 us -> qwerty
