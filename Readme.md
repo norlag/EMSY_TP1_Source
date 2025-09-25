@@ -152,12 +152,33 @@ Avec les commandes qu'ils m'ont indiqué "apt update" et "apt install sparky-bac
 <img width="852" height="573" alt="image" src="https://github.com/user-attachments/assets/0fc2f99e-635d-4e6e-89c7-8ba5831e1839" />
 On peut voir que le package sparky-backup-core a été mis à jour
 
-<img width="798" height="592" alt="image" src="https://github.com/user-attachments/assets/af2b3408-5485-44d5-b11d-30c1e643c3be" />
-Je relance l'installateur et j'appuye sur la touche enter sur le "< Yes >"
-On m'indique que par défaut l'installateur utilise l'anglais par défaut pour le clavier et la langue. Je souhaite configurer le clavier en suisse romand, je vais donc sur le "< Yes >" pour mettre le bon clavier.
+Question 13
+Selon le wiki : La taille de disque minimum recommandée par le wiki est de 10 à 20GB pour la partition root principale. La partition swap doit être entre 500MB et 1GB. La partition efi doit faire entre 100 et 300MB.
 
-<img width="822" height="604" alt="image" src="https://github.com/user-attachments/assets/7801cf2c-d9db-41a7-addf-288ebfdc8005" />
-Ici je choisis mon clavier fr_CH pour le suisse romand. UTF-8 devrait être choisi par défaut comme il est expliqué dans l'installateur.
+<img width="868" height="592" alt="image" src="https://github.com/user-attachments/assets/77bdda00-0eff-4653-b7bb-5a1bcad32678" />
+Ma table de partitions
+
+Question 14
+Elle sert à, lorsque il n'y a plus de place dans la ram à stocker les données temporaires
+
+Question 15
+exFAT ?
+
+Question 16
+
+
+Question M.
+<img width="666" height="447" alt="image" src="https://github.com/user-attachments/assets/de9adeaa-2da7-45ff-890a-084ee4a72ea6" />
+Mon écran GRUB
+
+
+
+
+
+
+
+
+
 
 
 
