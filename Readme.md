@@ -21,7 +21,7 @@ B. Sélectionnez **Create a New Virtual Machine**
 
 C. Placez le fichier `.iso` dans une repertoire connu : 
 
-`C:\VosInitiales\VM\ISO`
+`C:\SSR\VM\ISO`
 
 D. Indiquez le chemin d’accès de l’image iso comme indiqué sous l’image ci-dessous :
 
@@ -31,7 +31,7 @@ E. Choisir un nom d'OS : `Linux - Debian 11.x`
 
 ![OS name choice](/Images/OS_Choice.jpg) 
 
-F. Nommez la machine virtuelle : `SparkyLinux-VosInitiales` 
+F. Nommez la machine virtuelle : `SparkyLinux-SSR` 
 
 G. Creez un disque virtuel -> capcité : **20GB** 
 
