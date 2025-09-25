@@ -135,3 +135,5 @@ Le numéro 8 identifie le type de périphérique (ici, disque SCSI). et le 0 ind
 
 Ensuite on voit la dernière date de modification du fichier, ici le 18 septembre à 13:41
 
+Et finalement le nom du fichier
+
