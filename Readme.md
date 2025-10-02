@@ -215,8 +215,27 @@ En tant que root, j'utilise la commande "apt install git". Cette commande s'occu
 apt vient de "Advanced package tool". Ce programme nous permet de gérer, installer ou supprimer les programmes ainsi que de mettre à jour le système.
 
 ### Q21.
-apt n'est pas forcément disponible sur toutes les distributions. Cela est un choix pour chaque éditeur d'OS de l'intégrer par défaut ou non sur l'OS. D'expérience par exemple sur Arch linux, le gestionnaire de packets se nomme pacman et il fonctionne différemment de apt.
+apt n'est pas forcément disponible sur toutes les distributions. Cela est un choix pour chaque éditeur d'OS de l'intégrer par défaut ou non sur l'OS. D'expérience par exemple sur Arch linux, le gestionnaire de packets se nomme pacman et il fonctionne différemment de apt. 
 
+## Question R.
+### Q22.
+Le répertoire de l'utilisateur seb se trouve dans /home/seb/
+
+### Q23.
+étant déjà dans mon répertoire, je vais juste lancer la commande "mkdir EMSY_TP1_SSR" en tant qu'utilisateur seb. Je le précise car j'était en root avant, j'ai fait la commande "exit" pour me déconnecter et je me suis login en tant que utilisateur seb pour la manipulation. Autrement en tant que root j'aurais du modifier les permissions sur le dossier.
+
+## Question S.
+Je vois un dossier contenant mon repo git qui se nomme EMSY_TP1_Source
+
+## Question T.
+Mon hello world :
+
+<img width="825" height="631" alt="image" src="https://github.com/user-attachments/assets/530bc363-57a8-4855-bd87-4256566636b3" />
+
+## Question U.
+Ma version de gcc :
+
+<img width="634" height="121" alt="image" src="https://github.com/user-attachments/assets/fd8d29ba-76ad-4ff1-a586-f951c6f60743" />
 
 
 
