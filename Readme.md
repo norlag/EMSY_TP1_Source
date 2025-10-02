@@ -158,7 +158,6 @@ Lorsque je lance la partie d'installation pour les différentes partitions, je l
 Je n'ai aucune partition de créée :
 <img width="938" height="695" alt="image" src="https://github.com/user-attachments/assets/d7405e4d-fb41-46f2-8d2c-8dbad3b79d53" />
 
-
 Question 13
 Selon le wiki : La taille de disque minimum recommandée par le wiki est de 10 à 20GB pour la partition root principale. La partition swap doit être entre 500MB et 1GB. La partition efi doit faire entre 100 et 300MB.
 
@@ -166,19 +165,37 @@ Selon le wiki : La taille de disque minimum recommandée par le wiki est de 10 �
 Ma table de partitions
 
 Question 14
-Elle sert à, lorsque il n'y a plus de place dans la ram à stocker les données temporaires
+Elle sert à, lorsque il n'y a plus de place dans la ram, stocker les données temporaires des processus (programmes) de l'OS
 
 Question 15
-exFAT ?
+exFAT
 
 Question 16
-
+On nous demande un nom d'utilisteur normal avec son mot de passe et on nous demande directement le mot de passe pour le compte root qui s'agit du compte administrateur qui a tout les privilèges sur le système.
 
 Question M.
 <img width="666" height="447" alt="image" src="https://github.com/user-attachments/assets/de9adeaa-2da7-45ff-890a-084ee4a72ea6" />
 Mon écran GRUB
 
+Question O.
+J'utilise la commande sudo dpkg-reconfigure keyboard-configuration qui m'ouvre une configuration du clavier. La je peux choisir sous German (Switzerland) mon clavier French (Switzerland)
 
+Question P.
+<img width="793" height="371" alt="image" src="https://github.com/user-attachments/assets/9249731f-ad06-461e-b84c-c6be09b44edd" />
+la commande nano -version ne fonctionne manifestement pas. Je procède à l'installation du programme avec la commande "apt install nano"
+Moi même m'étant connecté en tant qu'utilisateur root avec la commande "sudo su", je peux omettre la commande "sudo" car j'ai déjà tout les droits administrateur. Sinon j'aurait du faire "sudo apt install nano"
+La commande sudo est utilisée lorsque l'on veut executer une commande spécifique qui nécessiterait les droits en tant qu'utilisateur "normal" sans devoir se connecter en tant qu'administreur juste pour faire la commande.
+
+Q17. Nano est un éditeur de texte à partir de la console tel que vi ou bien vim. Il est simple d'utilisation, c'est pourquoi il est mon editeur de choix en tant normal dans la console.
+Lorsque l'on a ouvert un fichier avec nano, les commandes de base sont : ctrl+O pour écrire dans le fichier, ctrl+X pour sortir, ctrl+G pour voir une page d'aide. Il existe d'autres commandes bien sûr, on les retrouve dans la page d'aide ainsi que en bas de la console pour référence : 
+<img width="841" height="648" alt="image" src="https://github.com/user-attachments/assets/631541e8-a682-4bab-b56e-1df04956964a" />
+
+
+Question Q.
+Q18. Je lance la commande "git" pour voir si quelque chose se passe, alternativement on peut faire "git --version" ou "man git"
+Q19. En tant que root, j'utilise la commande "apt install git". Cette commande s'occupe de télécharger et d'installer le package git
+Q20. apt vient de "Advanced package tool". Ce programme nous permet de gérer, installer ou supprimer les programmes ainsi que de mettre à jour le système.
+Q21. Apt n'est pas forcément disponible sur toutes les distributions. Cela est un choix pour chaque éditeur d'OS de l'intégrer par défaut ou non sur l'OS. D'expérience par exemple sur Arch linux, le gestionnaire de packets se nomme pacman et il fonctionne différemment de apt.
 
 
 
