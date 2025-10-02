@@ -237,6 +237,22 @@ Ma version de gcc :
 
 <img width="634" height="121" alt="image" src="https://github.com/user-attachments/assets/fd8d29ba-76ad-4ff1-a586-f951c6f60743" />
 
+### Q25.
+Les fichiers qui sont générés sont :
+EMSY_TP1.o
+ainsi que EMSY_TP1
+
+## Question V.
+### Q26.
+J'exécute mon programme avec la commande ./EMSY_TP1, mon hello world s'affiche sur la console :
+
+<img width="420" height="34" alt="image" src="https://github.com/user-attachments/assets/1bc87b8f-3ce7-4910-990a-646ec052a7fa" />
+
+
+
+
+
+
 
 
 
