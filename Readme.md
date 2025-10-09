@@ -253,7 +253,7 @@ Ensuite nous pouvons générer l'exécutable normalement avec la commande "gcc -
 
 ## Question V.
 ### Q26.
-J'exécute mon programme avec la commande ./EMSY_TP1, mon hello world s'affiche sur la console :
+Lorsque j'exécute mon programme avec la commande ./EMSY_TP1, mon hello world s'affiche sur la console :
 
 <img width="420" height="34" alt="image" src="https://github.com/user-attachments/assets/1bc87b8f-3ce7-4910-990a-646ec052a7fa" />
 
