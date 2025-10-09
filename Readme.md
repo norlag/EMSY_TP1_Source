@@ -246,7 +246,7 @@ Malheureusment les commandes qui nous sont proposées dans la donnée ne fonctio
 
 <img width="814" height="86" alt="image" src="https://github.com/user-attachments/assets/5bd90bbe-53fa-487c-98b8-23c3977545ed" />
 
-Alternativement à la place j'ai donc continué en utilisant la commande "gcc EMSY_TP1.c -o EMSY_TP1" qui fait les deux commandes en 1.
+Alternativement à la place j'ai donc continué en utilisant la commande "gcc EMSY_TP1.c -o EMSY_TP1" 
 
 Après quelques recherches, je trouve qu'il faut pour la première commande ne pas spécifier le fichier .o avec la commande "gcc -Wall -o fichier.o -c fichier.c". A la place il faut juste faire "gcc -Wall -c fichier.c"
 Ensuite nous pouvons générer l'exécutable normalement avec la commande "gcc -o EMSY_TP1 EMSY_TP1.o"
